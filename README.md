@@ -44,7 +44,7 @@ This project fulfills the following requirements:
 
 The web application is accessible at the following URL:
 
-*  ec2-3-137-218-214.us-east-2.compute.amazonaws.com
+*  (ec2-3-137-218-214.us-east-2.compute.amazonaws.com)
 
 ## Technologies Used:
 
