@@ -1,7 +1,7 @@
 # Cloud Computing Project 2: Interactive Web Application on AWS
 
 This project demonstrates the deployment of an interactive web application on an Amazon EC2 instance using Flask, SQLite3, and Apache.  
-The application allows users to register, input personal details, view their information, log in, and interact with a file upload/download feature.
+The application allows users to register, log in, view personal information, and interact with a file upload/download feature.
 
 ## Project Requirements and Implementation
 
