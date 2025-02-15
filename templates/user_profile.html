@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+    <div class="container">
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <div class="alert alert-{{ category }}">  {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        <h1>Welcome, {{ user['first_name'] }} {{ user['last_name'] }}</h1>
+
+        <div class="profile-info">
+            <p><strong>Email:</strong> {{ user['email'] }}</p>
+            <p><strong>Address:</strong> {{ user['address'] }}</p>
+        </div>
+        
+
+        {% if user and user['file_path'] %}  
+            <div class="file-info">
+                <p><strong>Word Count from Uploaded File:</strong> {{ word_count }}</p><br>
+                <a href="{{ url_for('download') }}" class="btn">Download File</a>
+            </div>
+        {% else %}
+            <p class="no-file">No file uploaded.</p>  {% endif %}
+
+        <br>
+        <a href="{{ url_for('logout') }}" class="btn logout-btn">Log Out</a><br>
+    </div>
+</body>
+</html>
