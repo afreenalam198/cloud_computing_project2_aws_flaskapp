@@ -41,7 +41,7 @@ This project fulfills the following requirements:
             <img width="1470" alt="Screenshot 2025-02-18 at 7 22 45 PM" src="https://github.com/user-attachments/assets/0946467a-50d7-4d98-95ae-1dd86752dc92" />  
 
  
-    *   **d. Login Page:**
+    *   **c. Login Page:**
         *   Allows users to log in using their username and password.
         *   Retrieves and displays user information upon successful login.
             <img width="1470" alt="Screenshot 2025-02-15 at 2 24 45 AM" src="https://github.com/user-attachments/assets/4d6f13aa-99aa-46eb-8afd-a0e2dc999f68" />  
