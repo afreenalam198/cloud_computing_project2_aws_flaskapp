@@ -30,6 +30,7 @@ This project fulfills the following requirements:
         *   Data is securely stored in the SQLite3 database using password hashing with bcrypt.
 <img width="1470" alt="Screenshot 2025-02-15 at 2 28 30 AM" src="https://github.com/user-attachments/assets/4397b793-71cd-4ab0-a07c-36575a626861" />
 
+
     *   **b. User Profile Page:**
         *   Redirects to a display page after successful registration form submission.
         *   Displays the user information entered during registration.
@@ -37,7 +38,9 @@ This project fulfills the following requirements:
             and provides a button to download the uploaded file.
         *   Includes a log out button.
 <img width="1470" alt="Screenshot 2025-02-15 at 2 33 23 AM" src="https://github.com/user-attachments/assets/43e23f4d-b80f-409f-9bfb-ecb394bf0593" />
+<img width="1470" alt="Screenshot 2025-02-18 at 7 22 45 PM" src="https://github.com/user-attachments/assets/0946467a-50d7-4d98-95ae-1dd86752dc92" />
 
+ 
     *   **d. Login Page:**
         *   Allows users to log in using their username and password.
         *   Retrieves and displays user information upon successful login.
